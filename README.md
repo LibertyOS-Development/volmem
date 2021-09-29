@@ -1,0 +1,1 @@
+Volmem is a simple library, allowing a reference to be wrapped to a copy-able type, while granting volatile memory access to the wrapped value. This library is designed for developing operating-systems, and is designed to run without any of Rust's standard libraries (std).

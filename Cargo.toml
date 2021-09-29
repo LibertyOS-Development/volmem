@@ -1,0 +1,15 @@
+[package]
+name = "volmem"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+[features]
+unstable = []
+
+[package.metadata.release]
+no-dev-version = true
+
+[package.metadata.docs.rs]
+features = ["unstable"]
