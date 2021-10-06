@@ -1,9 +1,11 @@
 [package]
 name = "volmem"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
-
-[dependencies]
+authors = ["Daniel P. Teberian"]
+description = "A simple, no_std crate that can be used in place of volatile."
+license = "Apache-2.0"
+repository = "https://github.com/LibertyOS-Development/volmem/"
 
 [features]
 unstable = []
